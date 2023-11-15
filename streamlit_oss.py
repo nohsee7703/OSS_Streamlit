@@ -1,12 +1,12 @@
 import streamlit as st
 
-# OSS 중간 시험 결과
-OSS_score = [80, 70, 55 ,30, 3, 3, 1, 0]
 
-st.write("# OSS 중간 시험 결과")
-st.write("## 애들아 공부 좀 하자")
-st.write("### 집에도 일찍 가자")
+sample = [23,45,67,89,88,100]
 
-OSS_score
+st.write("# 20118152")
+st.write("## 노시영")
 
-st.bar_chart(OSS_score)
+
+sample
+
+st.bar_chart(sample)
